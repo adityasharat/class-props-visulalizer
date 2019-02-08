@@ -42,10 +42,10 @@ function update(links, nodes) {
     .attr("class", "link")
     .attr('marker-end', 'url(#arrowhead)')
 
-  link.append("title")
+  /*link.append("title")
     .text(function (d) {
       return d.type;
-    });
+    });*/
 
   edgepaths = svg.selectAll(".edgepath")
     .data(links)
@@ -82,9 +82,9 @@ function update(links, nodes) {
     .style("text-anchor", "middle")
     .style("pointer-events", "none")
     .attr("startOffset", "50%")
-    .text(function (d) {
+    /*.text(function (d) {
       return d.type
-    });
+    });*/
 
   node = svg.selectAll(".node")
     .data(nodes)
