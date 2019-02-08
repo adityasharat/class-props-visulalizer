@@ -100,7 +100,6 @@ function update(links, nodes) {
   node.append("circle")
     .attr("r", 12)
     .style("fill", function (d, i) {
-      console.log(colors(i));
       return '#1f77b4';// '#2ca02c'; //colors(i);
     })
 
