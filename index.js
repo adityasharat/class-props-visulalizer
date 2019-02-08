@@ -111,7 +111,7 @@ function update(links, nodes) {
   node.append("text")
     .attr("dy", -3)
     .text(function (d) {
-      return d.name + ":" + d.label;
+      return `${d.name} ${d.label ?  ":" + d.label : ''}`;
     });
 
   simulation

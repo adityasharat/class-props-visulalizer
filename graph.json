@@ -2,22 +2,22 @@
   "nodes": [
     {
       "name": "Peter",
-      "label": "Person",
+      
       "id": 1
     },
     {
       "name": "Michael",
-      "label": "Person",
+      
       "id": 2
     },
     {
       "name": "Neo4j",
-      "label": "Database",
+      
       "id": 3
     },
     {
       "name": "Graph Database",
-      "label": "Database",
+      
       "id": 4
     }
   ],
