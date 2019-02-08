@@ -9,23 +9,23 @@ var svg = d3.select("svg"),
 svg.append('defs').append('marker')
   .attrs({
     'id': 'arrowhead',
-    'viewBox': '-0 -5 10 10',
-    'refX': 13,
+    'viewBox': '-0 -8 20 20',
+    'refX': 24,
     'refY': 0,
     'orient': 'auto',
-    'markerWidth': 13,
-    'markerHeight': 13,
+    'markerWidth': 16,
+    'markerHeight': 16,
     'xoverflow': 'visible'
   })
   .append('svg:path')
-  .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
-  .attr('fill', '#999')
+  .attr('d', 'M 0,-8 L 10 ,0 L 0,8')
+  .attr('fill', '#777')
   .style('stroke', 'none');
 
 var simulation = d3.forceSimulation()
   .force("link", d3.forceLink().id(function (d) {
     return d.id;
-  }).distance(200).strength(1))
+  }).distance(240).strength(2))
   .force("charge", d3.forceManyBody())
   .force("center", d3.forceCenter(width / 2, height / 2));
 
