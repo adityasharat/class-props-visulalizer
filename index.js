@@ -100,7 +100,7 @@ function update(links, nodes) {
   node.append("circle")
     .attr("r", 12)
     .style("fill", function (d, i) {
-      return '#1f77b4';// '#2ca02c'; //colors(i);
+      return d.type === 'class' ? '#1f77b4' : '#2ca02c'; //colors(i);
     })
 
   node.append("title")

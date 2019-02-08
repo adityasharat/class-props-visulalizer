@@ -709,11 +709,6 @@
       "id": 141,
       "name": "mWidth",
       "type": "property"
-    },
-    {
-      "id": 142,
-      "name": "InternalNode",
-      "type": "class"
     }
   ],
   "links": [
@@ -1399,7 +1394,7 @@
     },
     {
       "source": 51,
-      "target": 142
+      "target": 0
     }
   ]
 }
