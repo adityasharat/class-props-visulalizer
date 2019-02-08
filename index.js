@@ -10,22 +10,22 @@ svg.append('defs').append('marker')
   .attrs({
     'id': 'arrowhead',
     'viewBox': '-0 -8 20 20',
-    'refX': 24,
+    'refX': 18,
     'refY': 0,
     'orient': 'auto',
-    'markerWidth': 16,
-    'markerHeight': 16,
+    'markerWidth': 12,
+    'markerHeight': 12,
     'xoverflow': 'visible'
   })
   .append('svg:path')
-  .attr('d', 'M 0,-8 L 10 ,0 L 0,8')
+  .attr('d', 'M 0,-4 L 8 ,0 L 0,4')
   .attr('fill', '#777')
   .style('stroke', 'none');
 
 var simulation = d3.forceSimulation()
   .force("link", d3.forceLink().id(function (d) {
     return d.id;
-  }).distance(240).strength(2))
+  }).distance(180).strength(2))
   .force("charge", d3.forceManyBody())
   .force("center", d3.forceCenter(width / 2, height / 2));
 
@@ -110,6 +110,7 @@ function update(links, nodes) {
 
   node.append("text")
     .attr("dy", -3)
+    .attr("class", "node-label")
     .text(function (d) {
       return `${d.name} ${d.label ?  ":" + d.label : ''}`;
     });
