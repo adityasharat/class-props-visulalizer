@@ -22,9 +22,6 @@ const data = [{
         "name": "Component"
       },
       {
-        "name": "NodeInfo"
-      },
-      {
         "name": "YogaNode"
       },
       {
@@ -184,7 +181,7 @@ const data = [{
     ]
   },
   {
-    "name": "OtherProps",
+    "name": "CommonPropsHolder.OtherProps",
     "fields": [
       "mBorder",
       "mDuplicateParentState",
