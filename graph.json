@@ -577,136 +577,271 @@
     },
     {
       "id": 115,
-      "name": "mExpandedTouchBounds",
+      "name": "mAccessibilityRole",
       "type": "property"
     },
     {
       "id": 116,
-      "name": "mPadding",
+      "name": "mAccessibilityRoleDescription",
       "type": "property"
     },
     {
       "id": 117,
-      "name": "mBaselineFunction",
+      "name": "mAlpha",
       "type": "property"
     },
     {
       "id": 118,
-      "name": "mBorderBottom",
+      "name": "mClickHandler",
       "type": "property"
     },
     {
       "id": 119,
-      "name": "mBorderLeft",
+      "name": "mClipChildren",
       "type": "property"
     },
     {
       "id": 120,
-      "name": "mBorderRight",
+      "name": "mClipToOutline",
       "type": "property"
     },
     {
       "id": 121,
-      "name": "mBorderTop",
+      "name": "mContentDescription",
       "type": "property"
     },
     {
       "id": 122,
-      "name": "mChildren",
+      "name": "mDispatchPopulateAccessibilityEventHandler",
       "type": "property"
     },
     {
       "id": 123,
-      "name": "mDoesLegacyStretchFlagAffectsLayout",
+      "name": "mEnabledState",
       "type": "property"
     },
     {
       "id": 124,
-      "name": "mEdgeSetFlag",
+      "name": "mFocusChangeHandler",
       "type": "property"
     },
     {
       "id": 125,
-      "name": "mHasNewLayout",
+      "name": "mFocusState",
       "type": "property"
     },
     {
       "id": 126,
-      "name": "mHasSetPosition",
+      "name": "mInterceptTouchHandler",
       "type": "property"
     },
     {
       "id": 127,
-      "name": "mHeight",
+      "name": "mLongClickHandler",
       "type": "property"
     },
     {
       "id": 128,
-      "name": "mLeft",
+      "name": "mOnInitializeAccessibilityEventHandler",
       "type": "property"
     },
     {
       "id": 129,
-      "name": "mMarginBottom",
+      "name": "mOnInitializeAccessibilityNodeInfoHandler",
       "type": "property"
     },
     {
       "id": 130,
-      "name": "mMarginLeft",
+      "name": "mOnPopulateAccessibilityEventHandler",
       "type": "property"
     },
     {
       "id": 131,
-      "name": "mMarginRight",
+      "name": "mOnRequestSendAccessibilityEventHandler",
       "type": "property"
     },
     {
       "id": 132,
-      "name": "mMarginTop",
+      "name": "mOutlineProvider",
       "type": "property"
     },
     {
       "id": 133,
-      "name": "mMeasureFunction",
+      "name": "mPerformAccessibilityActionHandler",
       "type": "property"
     },
     {
       "id": 134,
-      "name": "mNativePointer",
+      "name": "mPrivateFlags",
       "type": "property"
     },
     {
       "id": 135,
-      "name": "mOwner",
+      "name": "mRotation",
       "type": "property"
     },
     {
       "id": 136,
-      "name": "mPaddingBottom",
+      "name": "mScale",
       "type": "property"
     },
     {
       "id": 137,
-      "name": "mPaddingLeft",
+      "name": "mSelectedState",
       "type": "property"
     },
     {
       "id": 138,
-      "name": "mPaddingRight",
+      "name": "mSendAccessibilityEventHandler",
       "type": "property"
     },
     {
       "id": 139,
-      "name": "mPaddingTop",
+      "name": "mSendAccessibilityEventUncheckedHandler",
       "type": "property"
     },
     {
       "id": 140,
-      "name": "mTop",
+      "name": "mShadowElevation",
       "type": "property"
     },
     {
       "id": 141,
+      "name": "mTouchHandler",
+      "type": "property"
+    },
+    {
+      "id": 142,
+      "name": "mViewTag",
+      "type": "property"
+    },
+    {
+      "id": 143,
+      "name": "mViewTags",
+      "type": "property"
+    },
+    {
+      "id": 144,
+      "name": "mBaselineFunction",
+      "type": "property"
+    },
+    {
+      "id": 145,
+      "name": "mBorderBottom",
+      "type": "property"
+    },
+    {
+      "id": 146,
+      "name": "mBorderLeft",
+      "type": "property"
+    },
+    {
+      "id": 147,
+      "name": "mBorderRight",
+      "type": "property"
+    },
+    {
+      "id": 148,
+      "name": "mBorderTop",
+      "type": "property"
+    },
+    {
+      "id": 149,
+      "name": "mChildren",
+      "type": "property"
+    },
+    {
+      "id": 150,
+      "name": "mDoesLegacyStretchFlagAffectsLayout",
+      "type": "property"
+    },
+    {
+      "id": 151,
+      "name": "mEdgeSetFlag",
+      "type": "property"
+    },
+    {
+      "id": 152,
+      "name": "mHasNewLayout",
+      "type": "property"
+    },
+    {
+      "id": 153,
+      "name": "mHasSetPosition",
+      "type": "property"
+    },
+    {
+      "id": 154,
+      "name": "mHeight",
+      "type": "property"
+    },
+    {
+      "id": 155,
+      "name": "mLeft",
+      "type": "property"
+    },
+    {
+      "id": 156,
+      "name": "mMarginBottom",
+      "type": "property"
+    },
+    {
+      "id": 157,
+      "name": "mMarginLeft",
+      "type": "property"
+    },
+    {
+      "id": 158,
+      "name": "mMarginRight",
+      "type": "property"
+    },
+    {
+      "id": 159,
+      "name": "mMarginTop",
+      "type": "property"
+    },
+    {
+      "id": 160,
+      "name": "mMeasureFunction",
+      "type": "property"
+    },
+    {
+      "id": 161,
+      "name": "mNativePointer",
+      "type": "property"
+    },
+    {
+      "id": 162,
+      "name": "mOwner",
+      "type": "property"
+    },
+    {
+      "id": 163,
+      "name": "mPaddingBottom",
+      "type": "property"
+    },
+    {
+      "id": 164,
+      "name": "mPaddingLeft",
+      "type": "property"
+    },
+    {
+      "id": 165,
+      "name": "mPaddingRight",
+      "type": "property"
+    },
+    {
+      "id": 166,
+      "name": "mPaddingTop",
+      "type": "property"
+    },
+    {
+      "id": 167,
+      "name": "mTop",
+      "type": "property"
+    },
+    {
+      "id": 168,
       "name": "mWidth",
       "type": "property"
     }
@@ -1262,19 +1397,7 @@
     },
     {
       "source": 50,
-      "target": 1
-    },
-    {
-      "source": 50,
       "target": 115
-    },
-    {
-      "source": 50,
-      "target": 12
-    },
-    {
-      "source": 50,
-      "target": 97
     },
     {
       "source": 50,
@@ -1282,55 +1405,155 @@
     },
     {
       "source": 50,
-      "target": 35
-    },
-    {
-      "source": 50,
-      "target": 36
-    },
-    {
-      "source": 51,
       "target": 117
     },
     {
-      "source": 51,
+      "source": 50,
       "target": 118
     },
     {
-      "source": 51,
+      "source": 50,
       "target": 119
     },
     {
-      "source": 51,
+      "source": 50,
       "target": 120
     },
     {
-      "source": 51,
+      "source": 50,
       "target": 121
     },
     {
-      "source": 51,
+      "source": 50,
       "target": 122
     },
     {
-      "source": 51,
+      "source": 50,
       "target": 123
     },
     {
-      "source": 51,
+      "source": 50,
       "target": 124
     },
     {
-      "source": 51,
+      "source": 50,
       "target": 125
     },
     {
-      "source": 51,
+      "source": 50,
       "target": 126
     },
     {
-      "source": 51,
+      "source": 50,
       "target": 127
+    },
+    {
+      "source": 50,
+      "target": 128
+    },
+    {
+      "source": 50,
+      "target": 129
+    },
+    {
+      "source": 50,
+      "target": 130
+    },
+    {
+      "source": 50,
+      "target": 131
+    },
+    {
+      "source": 50,
+      "target": 132
+    },
+    {
+      "source": 50,
+      "target": 133
+    },
+    {
+      "source": 50,
+      "target": 134
+    },
+    {
+      "source": 50,
+      "target": 135
+    },
+    {
+      "source": 50,
+      "target": 136
+    },
+    {
+      "source": 50,
+      "target": 137
+    },
+    {
+      "source": 50,
+      "target": 138
+    },
+    {
+      "source": 50,
+      "target": 139
+    },
+    {
+      "source": 50,
+      "target": 140
+    },
+    {
+      "source": 50,
+      "target": 141
+    },
+    {
+      "source": 50,
+      "target": 142
+    },
+    {
+      "source": 50,
+      "target": 143
+    },
+    {
+      "source": 51,
+      "target": 144
+    },
+    {
+      "source": 51,
+      "target": 145
+    },
+    {
+      "source": 51,
+      "target": 146
+    },
+    {
+      "source": 51,
+      "target": 147
+    },
+    {
+      "source": 51,
+      "target": 148
+    },
+    {
+      "source": 51,
+      "target": 149
+    },
+    {
+      "source": 51,
+      "target": 150
+    },
+    {
+      "source": 51,
+      "target": 151
+    },
+    {
+      "source": 51,
+      "target": 152
+    },
+    {
+      "source": 51,
+      "target": 153
+    },
+    {
+      "source": 51,
+      "target": 154
     },
     {
       "source": 51,
@@ -1338,59 +1561,59 @@
     },
     {
       "source": 51,
-      "target": 128
+      "target": 155
     },
     {
       "source": 51,
-      "target": 129
+      "target": 156
     },
     {
       "source": 51,
-      "target": 130
+      "target": 157
     },
     {
       "source": 51,
-      "target": 131
+      "target": 158
     },
     {
       "source": 51,
-      "target": 132
+      "target": 159
     },
     {
       "source": 51,
-      "target": 133
+      "target": 160
     },
     {
       "source": 51,
-      "target": 134
+      "target": 161
     },
     {
       "source": 51,
-      "target": 135
+      "target": 162
     },
     {
       "source": 51,
-      "target": 136
+      "target": 163
     },
     {
       "source": 51,
-      "target": 137
+      "target": 164
     },
     {
       "source": 51,
-      "target": 138
+      "target": 165
     },
     {
       "source": 51,
-      "target": 139
+      "target": 166
     },
     {
       "source": 51,
-      "target": 140
+      "target": 167
     },
     {
       "source": 51,
-      "target": 141
+      "target": 168
     },
     {
       "source": 51,
